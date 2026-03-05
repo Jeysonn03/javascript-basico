@@ -80,13 +80,12 @@ function esPar(num) {
 
 // Test 18:
 function esImpar(num) {
-	return num / 2! === 0
+	return num / 2 === 0
 }
 
 // Test 19:
 function elevarAlCuadrado(num) {
-	return ** 2
-}
+	return ** 2}
 
 // Test 20:
 function elevarAlCubo(num) {
