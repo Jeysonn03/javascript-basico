@@ -28,69 +28,46 @@ const nuevoModulo = 21 % 5 === 1;
 // ██████  FUNCIONES (Tests 7-35) ████████████████████████
 
 // Test 7:
-function devolverString(str) {
-	return str;
-}
+function devolverString(str) {return str;}
 
 // Test 8:
-function suma(x, y) {
-	return x + y;
-}
+function suma(x, y) {return x + y;}
 
 // Test 9:
-function resta(x, y) {
-	return x - y;
-}
+function resta(x, y) {return x - y;}
 
 // Test 10:
-function divide(x, y) {
-	return x / y;
-}
+function divide(x, y) {return x / y;}
 
 // Test 11:
-function multiplica(x, y) {
-	return x * y;
-}
+function multiplica(x, y) {return x * y;}
 
 // Test 12:
-function sonIguales(x, y) { return x === y }
+function sonIguales(x, y) { return x === y}
 
 // Test 13:
 function tienenMismaLongitud(str1, str2) { return str1.length === str2.lenngth; }
 
 // Test 14:
-function menosQueNoventa(num) {
-	return num < 90;
-}
+function menosQueNoventa(num) {return num < 90;}
 
 // Test 15:
-function mayorQueCincuenta(num) {
-	return num > 50;
-}
+function mayorQueCincuenta(num) {return num > 50;}
 
 // Test 16:
-function obtenerResto(x, y) {
-	return x % y
-}
+function obtenerResto(x, y) {return x % y}
 
 // Test 17:
-function esPar(num) {
-	return num / 2 === 0
-}
+function esPar(num) {return num / 2 === 0}
 
 // Test 18:
-function esImpar(num) {
-	return num / 2 === 0
-}
+function esImpar(num) {return num / 2 === 0}
 
 // Test 19:
-function elevarAlCuadrado(num) {
-	return ** 2}
+function elevarAlCuadrado(num) {return numero >=0}
 
 // Test 20:
-function elevarAlCubo(num) {
-	return ** 3
-}
+function elevarAlCubo(num) {return num ** 3;}
 
 // Test 21:
 function elevar(num, exponent) { }
