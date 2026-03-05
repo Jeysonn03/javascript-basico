@@ -46,7 +46,7 @@ function multiplica(x, y) {return x * y;}
 function sonIguales(x, y) { return x === y}
 
 // Test 13:
-function tienenMismaLongitud(str1, str2) { return str1.length === str2.lenngth; }
+function tienenMismaLongitud(str1, str2) { return str1.length === str2.length;}
 
 // Test 14:
 function menosQueNoventa(num) {return num < 90;}
@@ -61,28 +61,28 @@ function obtenerResto(x, y) {return x % y}
 function esPar(num) {return num / 2 === 0}
 
 // Test 18:
-function esImpar(num) {return num / 2 === 0}
+function esImpar(num) {return num / 2 === 1}
 
 // Test 19:
-function elevarAlCuadrado(num) {return numero >=0}
+function elevarAlCuadrado(num) {return num ** 2}
 
 // Test 20:
 function elevarAlCubo(num) {return num ** 3;}
 
 // Test 21:
-function elevar(num, exponent) { }
+function elevar(num, exponent) { return num ** exponent}
 
 // Test 22:
-function redondearNumero(num) { }
+function redondearNumero(num) {return Math.round (num)}
 
 // Test 23:
-function redondearHaciaArriba(num) { }
+function redondearHaciaArriba(num) {return Math.ceil(num)}
 
 // Test 24:
-function numeroRandom() { }
+function numeroRandom() {return Marth.randow () }
 
 // Test 25:
-function esPositivo(numero) { }
+function esPositivo(numero) {return numero >=0 }
 
 // Test 26:
 function agregarSimboloExclamacion(str) { }
